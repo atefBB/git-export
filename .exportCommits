@@ -7,7 +7,7 @@ firstCommit=$1
 lastCommit=$2
 
 timestamp=`date +%Y-%m-%d_%H:%M:%S`
-export_dir="_exports/${timestamp}/"
+export_dir="../_exports/${timestamp}/"
 
 if  [ "$1" = "" ]
 then
